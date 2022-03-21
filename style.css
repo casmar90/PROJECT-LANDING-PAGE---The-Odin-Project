@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+    margin:0;
+
+    color: red;
+    font-weight: 900;
+
+    
+}
+
+
+.header{
+background-color: #1F2937;
+height: 100px;
+}
+ .block-one, .block-two, .block-three, .block-four{
+    height: 100%;
+
+} 
+
+
+.block-one{
+    background-color: #1F2937;
+    
+}
+
+.block-two{
+    background-color: white;
+}
+
+.block-three{
+    background-color: #E5E7EB;
+}
+
+.block-four{
+    background-color: white;
+}
+
+
+.footer{
+    background-color: #1F2937;
+    height: 100px;
+}
