@@ -11,9 +11,15 @@ body{
     font-family: sans-serif;
 }
 
-.header, .block-one, .block-two, .block-three, .block-four, .footer{
+.header, .block-one, .block-two, .block-four, .footer{
     padding: 0 5%;
 }
+
+.block-three{
+    padding: 0 20%;
+}
+
+
 
 .header{
 background-color: #1F2937;
@@ -52,14 +58,29 @@ align-items: center;
 
 .block-one{
     background-color: #1F2937;
-    color: white;
     display: flex;
+
+    flex-wrap: wrap;
     
 }
 
- .left, .right{
+.block-one{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.block-two{
     margin: 64px 0;
 } 
+
+.block-three{
+    padding-top: 96px;
+    padding-bottom: 96px;
+} 
+
+.block-four{
+    margin: 96px 0;
+}
 
 .left, .right{
     display: flex;
@@ -98,22 +119,154 @@ align-items: center;
     background-color: #6D747D;
     justify-content: center;
     align-items: center;
+    flex:1;
     padding: 16px;
-    height: 100%;
+    text-align: center;
+    color: #E5E7EB;
+
+    min-height: 180px;
+    min-width: 230px;
+
+  
 }
 
 
 .block-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-color: white;
+    
 }
 
-.block-three{
-    background-color: #E5E7EB;
+.info-text{
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+    padding-bottom: 32px;
 }
+
+
+.boxes{
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:48px;
+}
+
+.box{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+
+}
+
+.illustration{
+    width: 160px;
+    height: 160px;
+    border: 4px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 24px;
+    
+   
+}
+
+.subtext{
+    color:#4B5563;
+    font-size: 18px;
+    text-align: center;
+    padding: 8px;
+
+    max-width: 164px;
+    max-height: 164px;
+}
+
+
+
+.block-three{
+    display: flex; 
+
+    flex-direction: column; 
+    
+
+
+    background-color: #E5E7EB;
+
+   
+    color: #1F2937;
+
+}
+
+
+.quote{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.author{
+    display: flex; 
+    justify-content: flex-end;
+
+    font-size: 24px;
+    font-weight: 800;
+
+
+
+}
+
 
 .block-four{
     background-color: white;
 }
+
+.blue{
+background-color: #3882F6;
+color: white;
+
+display: flex; 
+justify-content: space-between;
+padding: 48px 128px;
+
+border-radius: 8px;
+}
+
+.call-text{
+    display: flex; 
+    flex-direction: column;
+}
+
+
+.call{
+    font-size: 24px;
+    font-weight: 800;
+
+}
+
+.description{
+
+}
+
+.blue button{
+    color: white;
+    background-color: #3882F6;
+    border: 2px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 8px;
+    font-weight: 800;
+    font-size: 18px;
+
+    padding: 0 24px;
+}
+
+
+
 
 
 .footer{
